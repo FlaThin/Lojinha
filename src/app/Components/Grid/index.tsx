@@ -42,7 +42,7 @@ export function Grid(){
 
   return(
     <div className="grid grid-cols-2 gap-[6px]">
-      {data?.map(element => <Card card={element} />)}
+      {data?.map(element => <Card card={element} key={1}/>)}
     </div>
   )
 }
